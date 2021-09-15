@@ -1,1 +1,13 @@
-// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: 62.5%;
+    font-family: 'Barlow', sans-serif;
+}
+
+.home-main {
+    background: $primary;
+    height: 108rem;
+    margin-top: -10rem;
+}
