@@ -1,0 +1,13 @@
+.btn {
+    font-size: 1.4rem;
+    color: $color-grey;
+    border: 2px solid $color-grey;
+    background: $color-green-light;
+    padding: .5rem 1.5rem;
+    box-shadow: 4px 4px 0px $color-yellow;
+    transition: all .3s ease-out;
+    &:hover {
+        border: 2px solid $color-green-light;
+        box-shadow: none;
+    }
+}
