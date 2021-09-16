@@ -103,5 +103,97 @@ get_header();
 	</div>
 </div>
 
+<div class="presentation">
+	<div class="container">
+		<div class="presentation-info">
+			<h2 class="header-2">Products that glide, rise and move at the touch of a button</h2>
+			<p>Crafted solutions for the home, office, and classroom</p>
+			<div class="presentation-lists">
+				<h6>Supporting Health & Wellness</h6>
+				<p>Our adjustable solutions promote movement, which helps posture, spinal health and blood flow and can mitigate weight gain.</p>
+				<span></span>
+			</div>
+			<div class="presentation-lists">
+				<h6>Increased Accessibility</h6>
+				<p>Our adjustable solutions promote movement, which helps posture, spinal health and blood flow and can mitigate weight gain.</p>
+				<span></span>
+			</div>
+			<div class="presentation-lists">
+				<h6>Improve Productivity & Collaboration</h6>
+				<p>Our adjustable solutions promote movement, which helps posture, spinal health and blood flow and can mitigate weight gain.</p>
+				<span></span>
+			</div>
+		</div> <!-- PRESENTATION INFO END -->
+		<div class="presentation-img">
+			<img class="presentation-main-img" src="<?php echo get_template_directory_uri(); ?>/img/home/products-banner.png">
+			<img class="presentation-sub-img" src="<?php echo get_template_directory_uri(); ?>/img/home/group-30.png">
+			<img class="presentation-shape" src="<?php echo get_template_directory_uri(); ?>/img/home/mask-group9.svg">
+		</div> <!-- PRESENTATION IMG END -->
+	</div>
+</div>
+
+<div class="testimonials-section">
+	<div class="container">
+		<p class="top-head">TESTIMONIALS</p>
+		<h2 class="header-2">What our customers are saying</h2>
+		<div class="testimonials">
+			<div class="testimonials-card visible">
+				<i class="fas fa-quote-right"></i>
+				<p class="testimonials-quote">
+				We're opening a brand new school in the Foothills School Division. JORO Manufacturing introduced an adjustable mount into our environment that we reviewed and tested as we were looking to improve our installations of Interactive Whiteboards. The quality of the device, the ease of installation and the outstanding support from this company made it an easy decision to move forward for every installation on this site. We're so impressed, the Joro Pro-Lift Adjustable Mount has become our new standard.
+				</p>
+				<p class="name">James</p>
+				<p class="title">Director of Learning Technologies</p>
+			</div>
+			<div class="testimonials-card">
+				<i class="fas fa-quote-right"></i>
+				<p class="testimonials-quote">
+				We're opening a brand new school in the Foothills School Division. JORO Manufacturing introduced an adjustable mount into our environment that we reviewed and tested as we were looking to improve our installations of Interactive Whiteboards. The quality of the device, the ease.
+				</p>
+				<p class="name">James Arthur</p>
+				<p class="title">Director of Learning Technologies</p>
+			</div>
+			<div class="testimonials-card">
+				<i class="fas fa-quote-right"></i>
+				<p class="testimonials-quote">
+				We have over 600 JORO desks in our office space and it is a great product. They are well made, easy to move, easily adjustable and very durable. The customer service we have received is second to none.
+				</p>
+				<p class="name">Shelley</p>
+				<p class="title">Office Administration Lead</p>
+			</div>
+			<div class="testimonials-card">
+				<i class="fas fa-quote-right"></i>
+				<p class="testimonials-quote">
+				We're opening a brand new school in the Foothills School Division. JORO Manufacturing introduced an adjustable mount into our environment that we reviewed and tested as we were looking to improve our installations of Interactive Whiteboards. The quality of the device, the ease of installation and the outstanding support from this company made it an easy decision to move forward for every installation on this site. We're so impressed, the Joro Pro-Lift Adjustable Mount has become our new standard.
+				</p>
+				<p class="name">James</p>
+				<p class="title">Director of Learning Technologies</p>
+			</div>
+			<div class="actions">
+				<a id="button-prev" aria-label="previous slide"><i class="fas fa-arrow-circle-left"></i></a>
+				<a id="button-next" aria-label="next slide"><i class="fas fa-arrow-circle-right"></i></a>
+			</div>
+		</div> <!-- testiomonials end -->
+	</div> <!-- container end -->
+</div>
+
+
+<!-- NEWSLETTER SECTION Note: CSS IN _theme.scss -->
+<div class="newsletter">
+	<div class="container">
+		  <div class="newsletter-img">
+			<img class="newsletter-main" src="<?php echo get_template_directory_uri(); ?>/img/home/rectangle31.png">
+			<img class="newsletter-shape" src="<?php echo get_template_directory_uri(); ?>/img/home/rectangle30.svg">
+		  </div>
+		  <div class="newsletter-form">
+			  <p>Stay up to date with Joro’s latest news.</p>
+			  <h2 class="header-2">Sign up for our newsletter</h2>
+			  <?php echo do_shortcode( '[contact-form-7 id="5" title="Newsletter Form"]' ); ?>
+		  </div>
+	</div>
+</div>
+
+
+
 <?php
 get_footer();

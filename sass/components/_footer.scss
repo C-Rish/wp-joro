@@ -1,0 +1,112 @@
+.footer {
+    padding: 2rem 0;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        @media (max-width: 992px) {
+            gap: 4rem;
+        }
+    }
+    .footer-socials,
+    .footer-nav,
+    .footer-contact,
+    .footer-form {
+        flex: 0 0 22%;
+        max-height: 10rem;
+        @media (max-width: 992px) {
+            flex: 0 0 40%;
+            padding-left: 0;
+        }
+        @media (max-width: 768px) {
+            flex: 0 0 100%;
+        }
+    }
+    .footer-socials {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1.5rem;
+        max-width: 16rem;
+        width: 100%;
+        margin: 0 auto;
+        .footer-logo {
+            flex: 0 0 100%;
+        }
+        .socials {
+            flex: 0 0 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    .footer-nav {
+        margin: 0 auto;
+        padding-left: 2rem;
+        @media (max-width: 992px) {
+            padding-left: 0rem;
+        }
+        a {
+            text-align: left;
+            color: $color-grey;
+            font-weight: 500;
+            display: block;
+            text-decoration: none;
+            transition: all .3s ease-out;
+            &:hover {
+                color: $color-dark-blue;
+            }
+        }
+    }
+    .footer-contact {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
+        padding-right: 2rem;
+        @media (max-width: 992px) {
+            padding-right: 0rem;
+        }
+        p {
+            color: $color-grey;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+        div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            img {
+                height: 1.5rem;
+                width: 1.5rem;
+                flex: 0 0 10%;
+            }
+            p {
+                flex: 0 0 80%;
+                font-weight: 300;
+            }
+        }
+    }
+    .footer-form {
+        background: $primary;
+        padding: 1rem 2rem;
+        align-self: center;
+        .subscribe {
+            margin-top: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            input {
+                height: 2rem;
+                border: none;
+            }
+            .submit {
+                background: $color-blue;
+                font-size: 1rem;
+                padding: .2rem .5rem;
+            }
+        }
+    }
+}
