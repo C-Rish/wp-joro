@@ -99,6 +99,7 @@ get_header();
 				Our team combines leading-edge design with first-class service. Joro products are designed and customized for you, and manufactured locally, and shipped straight to your home, your office, or your classroom.
 			</p>
 		</div>
+		<a href="" class="learn-btn">Learn More</a>
 	</div>
 </div>
 
