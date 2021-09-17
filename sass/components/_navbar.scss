@@ -1,17 +1,17 @@
 #wrapper-navbar {
     #main-menu {
         border-bottom: 1px solid $color-white;
-        padding-bottom: .5rem;
+        padding-bottom: .8rem;
     }
     #main-nav {
-        padding: 1rem 0 .75rem 0;
+        padding: 1.6rem 0 1.2rem 0;
         transition: .5s all;
         .container {
             display: flex;
             justify-content: space-between;
             .logo {
-                width: 10rem;
-                height: 4.5rem;
+                width: 16rem;
+                height: 7.2rem;
                 .blue-logo {
                     display: block;
                     width: 100%;
@@ -25,18 +25,18 @@
             }
             .navbar-toggler {
                 .bar {
-                    height: .25rem;
-                    width: 3rem;
-                    border-radius: 4px;
+                    height: .4rem;
+                    width: 4.8rem;
+                    border-radius: 6.4px;
                     background: $color-grey;
-                    margin-bottom: .5rem;
+                    margin-bottom: .8rem;
                 }
             }
         }
         #navbarNavDropdown {
-            max-width: 35rem;
+            max-width: 56rem;
             @media (max-width: 992px) {
-                max-width: 29rem;
+                max-width: 46rem;
             }
         }
         &:hover {
@@ -58,10 +58,10 @@
         ul {
             flex: 1;
             li {
-                padding: 0 .75rem;
+                padding: 0 1.2rem;
                 a {
                     color: $color-grey;
-                    font-size: 1.2rem;
+                    font-size: 1.8rem;
                     font-weight: 400;
                 }
                 &.current_page_item {
@@ -70,9 +70,9 @@
                     }
                 }
                 @media (max-width:992px) {
-                    padding: 0 .5rem;
+                    padding: 0 .8rem;
                     a {
-                        font-size: 1rem;
+                        font-size: 1.6rem;
                     }
                 }
             }

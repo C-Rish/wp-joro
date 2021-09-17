@@ -1,12 +1,13 @@
 .footer {
-    padding: 2rem 0;
+    background: $color-white;
+    padding: 3.2rem 0;
     .container {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
         flex-wrap: wrap;
         @media (max-width: 992px) {
-            gap: 4rem;
+            gap: 6.4rem;
         }
     }
     .footer-socials,
@@ -14,7 +15,7 @@
     .footer-contact,
     .footer-form {
         flex: 0 0 22%;
-        max-height: 10rem;
+        max-height: 16rem;
         @media (max-width: 992px) {
             flex: 0 0 40%;
             padding-left: 0;
@@ -28,8 +29,8 @@
         justify-content: space-between;
         flex-wrap: wrap;
         align-items: center;
-        gap: 1.5rem;
-        max-width: 16rem;
+        gap: 2.4rem;
+        max-width: 25.6rem;
         width: 100%;
         margin: 0 auto;
         .footer-logo {
@@ -44,7 +45,7 @@
     }
     .footer-nav {
         margin: 0 auto;
-        padding-left: 2rem;
+        padding-left: 3.2rem;
         @media (max-width: 992px) {
             padding-left: 0rem;
         }
@@ -55,6 +56,7 @@
             display: block;
             text-decoration: none;
             transition: all .3s ease-out;
+            font-size: 1.6rem;
             &:hover {
                 color: $color-dark-blue;
             }
@@ -65,47 +67,52 @@
         justify-content: space-between;
         flex-direction: column;
         height: 100%;
-        padding-right: 2rem;
+        padding-right: 3.2rem;
         @media (max-width: 992px) {
             padding-right: 0rem;
         }
         p {
             color: $color-grey;
             font-weight: 500;
-            margin-bottom: 1rem;
+            margin-bottom: 1.6rem;
+            font-size: 1.6rem;
         }
         div {
             display: flex;
             justify-content: space-between;
             align-items: center;
             img {
-                height: 1.5rem;
-                width: 1.5rem;
+                height: 2.4rem;
+                width: 2.4rem;
                 flex: 0 0 10%;
             }
             p {
                 flex: 0 0 80%;
                 font-weight: 300;
+                font-size: 1.6rem;
             }
         }
     }
     .footer-form {
         background: $primary;
-        padding: 1rem 2rem;
+        padding: 1.6rem 3.2rem;
         align-self: center;
+        p {
+            font-size: 1.6rem;
+        }
         .subscribe {
-            margin-top: 2rem;
+            margin-top: 3.2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
             input {
-                height: 2rem;
+                height: 3.2rem;
                 border: none;
             }
             .submit {
                 background: $color-blue;
-                font-size: 1rem;
-                padding: .2rem .5rem;
+                font-size: 1.6rem;
+                padding: .4rem .8rem;
             }
         }
     }
