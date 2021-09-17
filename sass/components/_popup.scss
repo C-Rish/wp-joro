@@ -6,14 +6,153 @@
     left: 0;
     background-color: rgba($color-black, 0.8);
     z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+    // display: none;
+    &:target {
+        opacity: 1;
+        visibility: visible;
+    }
     &__content {
         position: relative;
+        max-width: 108rem;
         top: 50%;
         left: 50%;
         transform: translateX(-50%) translateY(-50%);
-        background-color: $color-white;
-        width: 75%;
-        height: 50rem;
+        background-color: $primary;
+        width: 90%;
+        height: 75rem;
         box-shadow: 0 2rem 4rem rgba($color-black, 0.2);
+        padding: 4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        border-radius: 1rem;
+        .popup-close {
+            &:link,
+            &:visited {
+                position: absolute;
+                top: 4rem;
+                right: 2rem;
+                font-size: 4rem;
+                color: $color-white;
+            }
+        }
+        @media (max-width: 850px) {
+            flex-direction: column;
+            padding: 1rem;
+        }
+        .content__left {
+            flex: 0 0 40%;
+            position: relative;
+            .content-main-img {
+                max-height: 25rem;
+                max-width: 33rem;
+                background: $color-yellow;
+                text-align: center;
+                position: relative;
+                z-index: 10;
+            }
+            .content-sub-img {
+                position: absolute;
+                z-index: 11;
+                top: 14rem;
+                left: 20rem;
+                max-height: 21rem;
+                max-width: 20rem;
+                min-height: 13rem;
+                min-width: 13rem;
+                @media (max-height: 920px) {
+                    left: 0rem;
+                }
+            }
+            .content-shape {
+                z-index: 9;
+                position: absolute;
+                top: -13rem;
+                left: 14rem;
+                max-height: 32rem;
+                max-width: 32rem;
+            }
+            .learn-btn {
+                position: absolute;
+                bottom: -15rem;
+                left: 2rem;
+            }
+            @media (max-width: 850px) {
+                flex: 0 0 30%;
+                flex-direction: column;
+                .content-sub-img {
+                    bottom: 0rem;
+                    left: 20rem;
+                }
+                .content-shape {
+                    display: none;
+                }
+                a {
+                    bottom: -5rem;
+                    left: 2rem;
+                }
+            }
+        } // CONTETN LEFT END
+        .content-right {
+            flex: 0 0 55%;
+            color: $color-grey;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            h3 {
+                font-size: 3rem;
+                font-weight: 600;
+            }
+            p {
+                font-size: 2rem;
+                color: $color-white;
+            }
+            ul {
+                padding-left: 2rem;
+                li {
+                    font-size: 2rem;
+                    font-weight: 300;
+                    padding-bottom: .5rem;
+                }
+            }
+            .download {
+                a {
+                    font-size: 1.8rem;
+                    color: $color-grey;
+                    text-decoration: underline;
+                    margin-right: 1rem;
+                }
+            }
+            a {
+                align-self: flex-end;
+            }
+            @media (max-height: 1110px) {
+                gap: 2rem;
+                h3 {
+                    font-size: 2.4rem;
+                }
+                p {
+                    font-size: 1.6rem;
+                }
+                ul {
+                    li {
+                        font-size: 1.6em;
+                    }
+                }
+            }
+            @media (max-width: 850px) {
+                gap: .5rem;
+                flex: 0 0 68%;
+                ul {
+                    li {
+                        padding-bottom: .25rem;
+                    }
+                }
+            }
+        } // CONTETN RIGHT END
     }
 }

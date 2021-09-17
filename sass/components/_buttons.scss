@@ -24,4 +24,12 @@
 .yellow-btn {
     color: $color-grey;
     background: $color-yellow;
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    font-weight: 700;
+    transition: all .3s ease-out;
+    &:hover {
+        color: $color-yellow;
+        background: $color-grey;
+    }
 }

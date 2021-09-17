@@ -324,6 +324,7 @@
         overflow: hidden;
         .item-img {
             background: $color-white;
+            display: block;
             img {
                 transition: all .3s ease-out;
             }

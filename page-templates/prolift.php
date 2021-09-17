@@ -118,15 +118,15 @@ get_header();
 	<div class="stand-shape"></div>
 </div>
 
-<div class="solutions">
+<div class="solutions" id="solutions-section">
 	<dic class="container">
 		<div class="solutions-title">
 			<h2 class="header-2">Mobile Stand Solutions</h2>
 		</div>
 		<div class="solutions-item">
-			<div class="item-img">
+			<a class="item-img" href="#pop-up">
 				<img src="<?php echo get_template_directory_uri(); ?>/img/prolift/ProLiftG5ZELT-LTT7FM-10.png">
-			</div>
+			</a>
 			<span>G5Z-ELT</span>
 		</div>
 		<div class="solutions-item">
@@ -217,9 +217,47 @@ get_header();
 	</div>
 </div>
 
-<div class="popup">
+<div class="popup" id="pop-up">
 	<div class="popup__content">
-		
+		<div class="content__left">
+			<div class="content-main-img">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/prolift/Prolift2-transparent.png">
+			</div>
+			<div class="content-sub-img">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/prolift/group168.png">
+
+			</div>
+			<div class="content-shape">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/prolift/group156.svg">
+
+			</div>
+			<a href="#" class="learn-btn">See G5Z-ELT in action</a>
+		</div>
+
+		<div class="content-right">
+			<h3>G5Z-ELT</h3>
+			<p>
+			A heavy-duty mobile solution that can accommodate heavier presentation boards and is easily maneuverable from room to room.
+			</p>
+			<ul>
+				<li>Nimble and easily maneuverable</li>
+				<li>TV’s up to 180 lbs and comes standard with a VESA Mount</li>
+				<li>Accommodates LCD/LED panels up to 75″ diagonal</li>
+				<li>Supports LCD/LED/IFP TVs up to 180 lbs</li>
+				<li>Electric height adjustment of 22”</li>
+				<li>Electric tilt adjustment from 0 to 90 (horizontal to vertical)</li>
+				<li>Heavy-duty, 4″ total locking plate mounted castors</li>
+				<li>Programmable hand switch mounted on a frame</li>
+				<li>Power outlet bar with 6 inputs and 10′cord</li>
+			</ul>
+			<div class="download">
+				<a class = "sell" href="#">Download Sell Sheet</a>
+				<a class = "spec" href="#">Download Spec Sheet</a>
+			</div>
+			<a href="" class="yellow-btn">GET A</a>
+		</div>
+
+		<a href="#solutions-section" class="popup-close"><i class="fas fa-times-circle"></i></a>
 	</div>
 </div>
 
