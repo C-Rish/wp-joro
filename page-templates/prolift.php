@@ -261,6 +261,32 @@ get_header();
 	</div>
 </div>
 
+<div class="questions">
+	<div class="container">
+		<p class="question-desc">Not sure what you’re looking for?</p>
+		<h2 class="header-2">ANSWER A FEW QUESTIONS AND LET US HELP.</h2>
+		<div class="questions-form">
+			<p class="question">Are you looking for a solution for an educational space or an office space?</p>
+			<div class="options-section">
+
+				<a href="#" class="option">Educational</a>
+				<a href="#" class="option">Office or Corporate</a>
+				<a href="#" class="option">Other</a>
+			</div>
+			<a href="#" class="yellow-btn">NEXT</a>
+		</div>
+	</div>
+</div>
+
+<div class="video">
+	<div class="container">
+		<h2 class="header-2">ProLIFT: A Joro Innovation</h2>
+		<div class="video-section">
+		<iframe src="https://www.youtube.com/embed/0z86zK5D_iI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div>
+</div>
+
 
 
 
