@@ -106,12 +106,12 @@ get_header();
 	</div>
 </div>
 
-<div class="contact-form">
-	<dic class="container">
-		<p class="form-title">
-			
-		</p>
-	</dic>
+<div class="contact-form-section">
+	<div class="container">
+		<p class="form-title">Not sure what you’re looking for?</p>
+		<h2 class="header-2">Get in touch with us.</h2>
+		<?php echo do_shortcode( '[contact-form-7 id="30" title="Contact Form"]' ); ?>
+	</div>
 </div>
 
 
