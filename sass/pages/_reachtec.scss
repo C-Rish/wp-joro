@@ -1,0 +1,57 @@
+.reachtec-card-section {
+    background: $primary;
+    padding: 20rem 0 40rem 0;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        @media (max-width: 992px) {
+            flex-direction: column;
+            gap: 2rem;
+            align-items: center;
+            .reachtec-card {
+                max-width: 44rem;
+            }
+        }
+    }
+    .reachtec-card {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex: 0 0 32%;
+        border-radius: 1rem;
+        transition: all .3s ease-out;
+        .card-img {
+            min-height: 26rem;
+            img {
+                width: 100%;
+            }
+        }
+        .card-desc {
+            padding-top: 2.4rem;
+            color: $color-grey;
+            min-height: 44rem;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            transition: all .3s ease-out;
+            h5 {
+                font-size: 3rem;
+                font-weight: 600;
+            }
+            p {
+                font-size: 2rem;
+                margin-bottom: 2rem;
+            }
+        }
+        &:hover {
+            .card-desc {
+                background: $color-white;
+                padding: 2.4rem 2rem 2rem 2rem;
+                .download {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

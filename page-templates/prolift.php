@@ -56,6 +56,7 @@ get_header();
 	</div>
 </div>
 
+<!-- THIS SECTION IS IN PRLIFT AND REACHTEC NOTE: CSS IN PROLIFT.SCSS -->
 <div class="teach-bg">
 	<div class="teach">
 		<div class="teach-left">
