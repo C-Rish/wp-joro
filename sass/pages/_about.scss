@@ -139,3 +139,51 @@
             }
         }
     }
+    
+    .different {
+        background: $color-green-light;
+        padding: 5rem 0;
+        text-align: center;
+        h2 {
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 6rem;
+            .left,
+            .right {
+                flex: 0 0 40%;
+            }
+            .left {
+                text-align: right;
+                margin-top: 26rem;
+            }
+            .right {
+                text-align: left;
+            }
+            @media(max-width:768px) {
+                flex-direction: column;
+                align-items: center;
+                .left,
+                .right {
+                    text-align: center;
+                    margin-top: 0;
+                }
+            }
+        }
+        .different-item {
+            margin-bottom: 6rem;
+            .diff-desc {
+                color: $color-grey;
+                h3 {
+                    font-size: 2.5rem;
+                    font-weight: 700;
+                }
+                p {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }

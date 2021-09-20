@@ -55,6 +55,61 @@ get_header();
 
 </div>
 
+<div class="different">
+    <h2 class="header-2">What Makes Us Different</h2>
+    <div class="container">
+        <div class="left">
+            <div class="different-item">
+                <div class="diff-img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/about/group352.png">
+                </div>
+                <div class="diff-desc">
+                    <h3>Our Manufacturing Process</h3>
+                    <p>
+                    Joro products are proudly manufactured in North America. This allows us to continually improve our processes and ensure high quality output.
+                    </p>
+                </div>
+            </div>
+            <div class="different-item">
+                <div class="diff-img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/about/group426.png">
+                </div>
+                <div class="diff-desc">
+                    <h3>Our Level of Service</h3>
+                    <p>
+                    When you call, we answer. If you have an issue with any of our products, you talk to a real life human… in fact, you talk to the same people who designed, built and shipped them to you!
+                    </p>
+                </div>
+            </div>
+        </div> <!-- LEFT END -->
+        <div class="right">
+            <div class="different-item">
+                <div class="diff-img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/about/group245.png">
+                </div>
+                <div class="diff-desc">
+                    <h3>Our Designs</h3>
+                    <p>
+                    We build with you, the customer in mind. We design products that are backed by science and expertise. Our solutions are designed to fit your individual and spatial needs.
+                    </p>
+                </div>
+            </div>
+            <div class="different-item">
+                <div class="diff-img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/about/group303.png">
+                </div>
+                <div class="diff-desc">
+                    <h3>Custom Options</h3>
+                    <p>
+                    We know that each customer will have different needs. While we have our signature line, we also have the ability to adjust and alter to suit your needs, whatever they may be.
+                    </p>
+                </div>
+            </div>
+        </div> <!-- RIGHT END -->
+    </div> <!-- CONTAINER END -->
+    <a href="#" class="btn">Let’s get started</a>
+</div>
+
 
 
 
