@@ -55,3 +55,28 @@
         }
     }
 }
+
+.reachtec-video-section {
+    background: $color-dark-blue;
+    padding-bottom: 10rem;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: 4rem;
+    }
+    .main-video {
+        flex: 0 0 100%;
+        margin-top: -30rem;
+        img {
+            width: 100%;
+        }
+    }
+    .sub-video {
+        flex: 0 0 32%;
+        img {
+            width: 100%;
+        }
+    }
+}

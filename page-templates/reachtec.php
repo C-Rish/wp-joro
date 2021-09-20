@@ -122,6 +122,23 @@ get_header();
 	</div>
 </div>
 
+<div class="reachtec-video-section">
+	<div class="container">
+		<div class="main-video">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/reachtec/thumbnail rt.png">
+		</div>
+		<div class="sub-video">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/reachtec/rt-thumb1.png">
+		</div>
+		<div class="sub-video">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/reachtec/rt-thumb2.png">
+		</div>
+		<div class="sub-video">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/reachtec/rt-thumb3.png">
+		</div>
+	</div>
+</div>
+
 
 
 
