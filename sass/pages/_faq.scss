@@ -1,0 +1,132 @@
+    .faq {
+        background: $color-white;
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        max-width: 120rem;
+        margin: 0 auto;
+        .question-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-self: flex-start;
+            flex: 0 0 35%;
+            a {
+                font-size: 3rem;
+                color: $color-dark-blue;
+                padding: 2rem 0 2rem 6rem;
+                width: 100%;
+                background: $primary;
+                text-align: left;
+                font-weight: 600;
+            }
+            .active-nav {
+                color: $color-grey;
+                background: $color-white !important;
+            }
+        } // QUESTION SECTION END
+        .answers-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex: 0 0 55%;
+            margin: 6rem 4rem 0 0;
+            .answers-nav {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 3.6rem;
+                border-bottom: 1px solid $primary;
+                margin-bottom: 4rem;
+                a {
+                    font-size: 2rem;
+                    font-weight: 500;
+                    color: $color-grey;
+                }
+                a.active-section {
+                    border-bottom: 3px solid $color-dark-blue;
+                }
+            } // ANSWER NAV END
+            .tabs-content {
+                width: 100%;
+            }
+            .accordion-container {
+                display: block;
+                .question-answers {
+                    font-size: 2rem;
+                    color: $color-grey;
+                    border: 1px solid $primary;
+                    border-radius: 1rem;
+                    margin-bottom: 2rem;
+                    width: 100%;
+                    .question {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 1rem;
+                        font-size: 2rem;
+                        font-weight: 600;
+                        a {
+                            color: $color-grey;
+                            i {
+                                color: $color-green;
+                            }
+                        }
+                    }
+                    .answer {
+                        border-top: 1px solid $primary;
+                        font-weight: 400;
+                        padding: 1rem;
+                        display: none;
+                    }
+                } // QUESTION-ANSWER SECTION END
+            } // ACCORDION SECTION END
+        } // ANSWER SECTION END
+        @media (max-width: 1100px) {
+            .question-section {
+                flex: 0 0 25%;
+                a {
+                    padding: 2rem 0 2rem 4rem;
+                }
+            }
+            .answers-section {
+                flex: 0 0 70%;
+            }
+        }
+        @media (max-width: 672px) {
+            .question-section {
+                a {
+                    font-size: 2rem;
+                    padding: 1rem 0 1rem 2rem;
+                }
+            }
+            .answers-section {
+                margin: 0rem 4rem 0 0;
+                .accordion-container {
+                    .question-answers {
+                        font-size: 1.6rem;
+                        .question {
+                            font-size: 1.6rem;
+                        }
+                    }
+                }
+            }
+        }
+        @media (max-width: 520px) {
+            flex-direction: column;
+            .question-section {
+                flex: 0 0 100%;
+                width: 100%;
+                a {
+                    text-align: center;
+                    padding: 1rem 0rem;
+                }
+            }
+            .answers-section {
+                flex: 0 0 100%;
+                margin: 0rem 0rem 0 0;
+            }
+        }
+    } // FAQ END

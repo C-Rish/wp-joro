@@ -25,6 +25,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"> 
 	<!-- FONT AWESOME -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+	</script>
 </head>
 
 <body <?php body_class(); ?> <?php understrap_body_attributes(); ?>>
