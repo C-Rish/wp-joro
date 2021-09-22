@@ -31,252 +31,726 @@ get_header();
 
 <div class="faq">
     <div class="question-section">
-        <a href="#" class="about-joro">About Joro</a>
-        <a href="#" class="products active-nav">Products</a>
-        <a href="#" class="orders">Orders & Payment</a>
+        <a href="#about" class="about-joro">About Joro</a>
+        <a href="#product-1" class="products">Products</a>
+        <a href="#order" class="orders">Orders & Payment</a>
         <a href="#" class="shipping">Shipping & Returns</a>
         <a href="#" class="warranty">Warranty</a>
         <a href="#" class="assembly">Assembly</a>
         <a href="#" class="contact">Contact</a>
     </div>
 
+    <div class="panelContainer">
 
-    <div class="answers-section">
-        <div class="answers-nav">
-            <a href="#accordion1" class="prolift-nav">ProLIFT</a>
-            <a href="#accordion2" class="reachtec-nav">ReachTec</a>
-            <a href="#accordion3" class="flexdesk-nav">FlexDesk</a>
-        </div>
+        <div id="about" class="answers-section">
+            <div class="answers-nav">
+                <a href="#accordion1" class="prolift-nav">ProLIFT</a>
+                <a href="#accordion2" class="reachtec-nav">ReachTec</a>
+                <a href="#accordion3" class="flexdesk-nav">FlexDesk</a>
+            </div>
 
-        <div class="tabs-content">
-            <div id="accordion1" class="accordion-container tab-content">
-                <div class="question-answers">
-                    <h6 class="question">
-                        Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+            <div class="tabs-content">
+                <div id="accordion1" class="accordion-container tab-content">
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="question-answers">
-                    <h6 class="question">
-                    My whiteboard slides from side to side (L to R), what is it? <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+                    <div class="question-answers">
+                        <h6 class="question">
+                        My whiteboard slides from side to side (L to R), what is it? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="question-answers">
-                    <h6 class="question">
-                    I have extra fasteners in my box,is it okay? <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+                    <div class="question-answers">
+                        <h6 class="question">
+                        I have extra fasteners in my box,is it okay? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="question-answers">
-                    <h6 class="question">
-                        Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="question-answers">
-                    <h6 class="question">
-                        Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="question-answers">
-                    <h6 class="question">
-                        Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="question-answers">
-                    <h6 class="question">
-                        Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="question-answers">
-                    <h6 class="question">
-                        Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                
-            </div><!-- ACCORDIAN1 END -->
-            <div id="accordion2" class="accordion-container tab-content">
-                <div class="question-answers">
-                    <h6 class="question">
-                        ReachTEC Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+                    
+                </div><!-- ACCORDIAN1 END -->
+                <div id="accordion2" class="accordion-container tab-content">
+                    <div class="question-answers">
+                        <h6 class="question">
+                            ReachTEC Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="question-answers">
-                    <h6 class="question">
-                    My whiteboard slides from side to side (L to R), what is it? <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+                    <div class="question-answers">
+                        <h6 class="question">
+                        My whiteboard slides from side to side (L to R), what is it? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="question-answers">
-                    <h6 class="question">
-                    I have extra fasteners in my box,is it okay? <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+                    <div class="question-answers">
+                        <h6 class="question">
+                        I have extra fasteners in my box,is it okay? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="question-answers">
-                    <h6 class="question">
-                        Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="question-answers">
-                    <h6 class="question">
-                        Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="question-answers">
-                    <h6 class="question">
-                        Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="question-answers">
-                    <h6 class="question">
-                        Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="question-answers">
-                    <h6 class="question">
-                        Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                
-            </div><!-- ACCORDIAN2 END -->
-            <div id="accordion3" class="accordion-container tab-content">
-                <div class="question-answers">
-                    <h6 class="question">
-                       Shir <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+                    
+                </div><!-- ACCORDIAN2 END -->
+                <div id="accordion3" class="accordion-container tab-content">
+                    <div class="question-answers">
+                        <h6 class="question">
+                        Shir <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="question-answers">
-                    <h6 class="question">
-                    My whiteboard slides from side to side (L to R), what is it? <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+                    <div class="question-answers">
+                        <h6 class="question">
+                        My whiteboard slides from side to side (L to R), what is it? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="question-answers">
-                    <h6 class="question">
-                    I have extra fasteners in my box,is it okay? <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+                    <div class="question-answers">
+                        <h6 class="question">
+                        I have extra fasteners in my box,is it okay? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="question-answers">
-                    <h6 class="question">
-                        Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="question-answers">
-                    <h6 class="question">
-                        Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="question-answers">
-                    <h6 class="question">
-                        Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="question-answers">
-                    <h6 class="question">
-                        Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="question-answers">
-                    <h6 class="question">
-                        Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
-                    </h6>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
 
-                    <div class="answer">
-                        <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
                     </div>
-                </div>
-                
-            </div><!-- ACCORDIAN3 END -->
-        </div>
+                    
+                </div><!-- ACCORDIAN3 END -->
+            </div>
+        </div>  <!-- ANSWER SECTION PRODUCT -->
 
-    </div>
+        <div id="product-1" class="answers-section">
+            <div class="answers-nav answers-nav2">
+                <a href="#accordion4" class="prolift-nav">ProLIFT</a>
+                <a href="#accordion5" class="reachtec-nav">ReachTec</a>
+                <a href="#accordion6" class="flexdesk-nav">FlexDesk</a>
+            </div>
+
+            <div class="tabs-content">
+                <div id="accordion4" class="accordion-container tab-content">
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                        My whiteboard slides from side to side (L to R), what is it? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                        I have extra fasteners in my box,is it okay? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    
+                </div><!-- ACCORDIAN1 END -->
+                <div id="accordion5" class="accordion-container tab-content">
+                    <div class="question-answers">
+                        <h6 class="question">
+                            ReachTEC Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                        My whiteboard slides from side to side (L to R), what is it? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                        I have extra fasteners in my box,is it okay? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    
+                </div><!-- ACCORDIAN2 END -->
+                <div id="accordion6" class="accordion-container tab-content">
+                    <div class="question-answers">
+                        <h6 class="question">
+                        Shir <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                        My whiteboard slides from side to side (L to R), what is it? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                        I have extra fasteners in my box,is it okay? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    
+                </div><!-- ACCORDIAN3 END -->
+            </div>
+        </div>  <!-- ANSWER SECTION PRODUCT -->
+        <div id="order" class="answers-section">
+            <div class="answers-nav">
+                <a href="#accordion1" class="prolift-nav">ProLIFT</a>
+                <a href="#accordion2" class="reachtec-nav">ReachTec</a>
+                <a href="#accordion3" class="flexdesk-nav">FlexDesk</a>
+            </div>
+
+            <div class="tabs-content">
+                <div id="accordion1" class="accordion-container tab-content">
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                        My whiteboard slides from side to side (L to R), what is it? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                        I have extra fasteners in my box,is it okay? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    
+                </div><!-- ACCORDIAN1 END -->
+                <div id="accordion2" class="accordion-container tab-content">
+                    <div class="question-answers">
+                        <h6 class="question">
+                            ReachTEC Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                        My whiteboard slides from side to side (L to R), what is it? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                        I have extra fasteners in my box,is it okay? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    
+                </div><!-- ACCORDIAN2 END -->
+                <div id="accordion3" class="accordion-container tab-content">
+                    <div class="question-answers">
+                        <h6 class="question">
+                        Shir <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                        My whiteboard slides from side to side (L to R), what is it? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                        I have extra fasteners in my box,is it okay? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    <div class="question-answers">
+                        <h6 class="question">
+                            Which mounting holes do I use to fix the projector? <a class="expand"><i class="fas fa-plus"></i></a>
+                        </h6>
+
+                        <div class="answer">
+                            <p>Refer to the Turret Assembly Sheet for a schematic of the appropriate fixing holes for your projector and board combination.</p>
+                        </div>
+                    </div>
+                    
+                </div><!-- ACCORDIAN3 END -->
+            </div>
+        </div>  <!-- ANSWER SECTION PRODUCT -->
+    
+    </div>  <!-- PANEL CONTAINER SECTION -->
+
 </div>
 
 <script>
@@ -310,7 +784,7 @@ $(function() {
 });
 
 $(document).on('click', function(event) {
-    if (!$(event.target).closest('#accordion1').length || !$(event.target).closest('#accordion2').length || !$(event.target).closest('#accordion3').length) {
+    if (!$(event.target).closest('#accordion1').length || !$(event.target).closest('#accordion2').length || !$(event.target).closest('#accordion3').length || !$(event.target).closest('#accordion4').length || !$(event.target).closest('#accordion5').length || !$(event.target).closest('#accordion6').length) {
         $this.parent().toggleClass('open');
     }
 });
@@ -318,8 +792,6 @@ $(document).on('click', function(event) {
 
 // FOR TABS
 $(document).ready(function() {
-
-//alert('here');
 
 $('.answers-nav a').click(function() {
 
@@ -330,13 +802,33 @@ $('.answers-nav a').click(function() {
     var panel = $(this).attr('href');
     $(panel).fadeIn(1000);
 
-    return false; // prevents link action
+    return false;
 
-}); // end click 
+}); 
 
 $('.answers-nav a:first').click();
 
-}); // end ready
+});
+
+// FOR MAIN TABS
+$(document).ready(function() {
+
+$('.question-section a').click(function() {
+
+    $('.answers-section').hide();
+    $('.question-section a.active-nav').removeClass('active-nav');
+    $(this).addClass('active-nav');
+
+    var panel = $(this).attr('href');
+    $(panel).fadeIn(1000);
+
+    return false;
+
+});
+
+$('.question-section a:first').click();
+
+});
 
 </script>
 
