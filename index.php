@@ -20,51 +20,49 @@ $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
 <?php if ( is_front_page() && is_home() ) : ?>
-	<?php get_template_part( 'global-templates/hero' ); ?>
+	<?php get_template_part( 'page-templates/new' ); ?>
 <?php endif; ?>
 
-<div class="wrapper" id="index-wrapper">
+<body style="background:#89bbe0" <?php body_class(); ?> <?php understrap_body_attributes(); ?>>
 
-	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
+<div class="page-sub">
+    <div class="container">
+        <div class="page-sub__desc">
+            <h1>The Innovation Station</h1>
+            <p>We’re constantly creating. Stay up to date with our latest projects</p>
+        </div>
+        <div class="page-sub__img">
+				<img class="page-sub-main-new" src="<?php echo get_template_directory_uri(); ?>/img/news/intersection7.png">
 
-		<div class="row">
+        </div>
+    </div>
+</div>
 
-			<!-- Do the left sidebar check and opens the primary div -->
-			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
-
-			<main class="site-main" id="main">
-
-				<?php
-				if ( have_posts() ) {
-					// Start the Loop.
-					while ( have_posts() ) {
-						the_post();
-
-						/*
-						 * Include the Post-Format-specific template for the content.
-						 * If you want to override this in a child theme, then include a file
-						 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-						 */
-						get_template_part( 'loop-templates/content', get_post_format() );
-					}
-				} else {
-					get_template_part( 'loop-templates/content', 'none' );
-				}
+<div id="primary">
+	<main id="main" class="site-main mt-5" role ="main">
+		<?php
+			if(have_posts() ){
 				?>
-
-			</main><!-- #main -->
-
-			<!-- The pagination component -->
-			<?php understrap_pagination(); ?>
-
-			<!-- Do the right sidebar check -->
-			<?php get_template_part( 'global-templates/right-sidebar-check' ); ?>
-
-		</div><!-- .row -->
-
-	</div><!-- #content -->
-
-</div><!-- #index-wrapper -->
+				<div class="container news-post">
+					<?php
+						while (have_posts() ): the_post();
+						?>
+						<div class="single-news">
+						<?php
+							// the_title();
+							the_content();
+							the_excerpt();
+						?>
+						</div>
+						<?php
+					endwhile;
+					?>
+				</div>
+				<?php
+			}
+		?>
+	</main>
+</div>
 
 <?php
 get_footer();

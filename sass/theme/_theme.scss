@@ -131,6 +131,7 @@ img {
         flex-direction: column;
         justify-content: space-between;
         margin-top: -12rem;
+        flex: 0 0 30%;
         &:hover {
             border: 1px solid $color-grey;
             .our-products-card__img {
@@ -497,6 +498,62 @@ img {
                     color: $color-yellow;
                 }
             }
+        }
+    }
+}
+
+// FOR NEWS
+#primary {
+    background: $color-white;
+}
+
+.news-post {
+    padding: 6rem 0;
+    background: $color-white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    .single-news {
+        background: $color-green-light;
+        flex: 0 0 30%;
+        padding: 0 2rem;
+        min-height: 45rem;
+        .wp-block-image {
+            padding: 0;
+            width: 100%;
+            figure {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.entry-content {
+    .wp-block-image {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+    .news-group {
+        background: $color-green-light;
+        width: 90%;
+        padding: 2rem 4rem;
+        margin: -10rem auto 0 auto;
+        position: relative;
+        z-index: 1000;
+        h3 {
+            font-size: 4.4rem;
+            font-weight: 700;
+        }
+        p {
+            font-size: 2rem;
+            padding-bottom: 2rem;
+            max-width: 100%;
         }
     }
 }

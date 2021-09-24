@@ -57,7 +57,7 @@
     
     .mission {
         background: $color-white;
-        padding: 5rem 0;
+        padding: 4rem 0;
         color: $color-grey;
         h2,
         p {
@@ -185,5 +185,27 @@
                     font-size: 2rem;
                 }
             }
+        }
+    }
+    
+    .entry-header {
+        display: none;
+    }
+    
+    .story-text {
+        font-size: 2rem;
+    }
+    
+    .left {
+        margin-top: 10rem;
+    }
+    
+    .entry-content .wp-block-group {
+        background: #ebf8f7;
+        // padding: 2rem 0;
+        p {
+            font-size: 2rem;
+            padding-bottom: 2rem;
+            max-width: 100%;
         }
     }

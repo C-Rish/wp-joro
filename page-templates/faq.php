@@ -43,7 +43,7 @@ get_header();
     <div class="panelContainer">
 
         <div id="about" class="answers-section">
-            <div class="answers-nav">
+            <div class="answers-nav answers-nav1">
                 <a href="#accordion1" class="prolift-nav">ProLIFT</a>
                 <a href="#accordion2" class="reachtec-nav">ReachTec</a>
                 <a href="#accordion3" class="flexdesk-nav">FlexDesk</a>
@@ -809,6 +809,7 @@ $('.answers-nav a').click(function() {
 $('.answers-nav a:first').click();
 
 });
+
 
 // FOR MAIN TABS
 $(document).ready(function() {

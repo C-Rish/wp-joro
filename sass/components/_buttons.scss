@@ -1,14 +1,26 @@
 .btn {
     font-size: 1.8rem;
     color: $color-grey;
+    border: 3px solid $color-grey;
+    background: transparent;
+    padding: .25rem 1rem;
+    transition: all .3s ease-out;
+    &:hover {
+        border: 3px solid $color-grey;
+    }
+}
+
+.btn2 {
+    font-size: 1.8rem;
+    color: $color-grey;
     border: 3.2px solid $color-grey;
     background: $color-green-light;
     padding: .8rem;
     box-shadow: 4px 4px 0px $color-yellow;
     transition: all .3s ease-out;
+    border-radius: 0;
     &:hover {
         border: 3.2px solid $color-green-light;
-        box-shadow: none;
     }
 }
 

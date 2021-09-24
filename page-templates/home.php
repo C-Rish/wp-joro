@@ -42,7 +42,7 @@ get_header();
 			<div class="our-products-card__desc">
 				<img class="our-card-sub-img" src="<?php echo get_template_directory_uri(); ?>/img/home/Flexdesk-Colored.png">
 				<p>
-				Improve posture and wellness with custom sit/stand solutions from workstations to boardroom tables.
+				<?php echo get_theme_mod('joro-card-text')?>
 				</p>
 				<a href="" class="learn">Learn More <i class="fas fas-long-arrow-alt-right"></i></a>
 			</div>

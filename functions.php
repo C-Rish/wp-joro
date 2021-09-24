@@ -42,3 +42,26 @@ if ( class_exists( 'Jetpack' ) ) {
 foreach ( $understrap_includes as $file ) {
 	require_once get_theme_file_path( $understrap_inc_dir . $file );
 }
+
+// ADD PRODUCT CARD
+
+function joro_card($wp_customize) {
+	$wp_customize->add_section('joro-card-callout-section', array(
+		'title' => 'Product Card'
+	));
+	$wp_customize->add_setting('joro-card-text', array(
+		'default' => 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum voluptatum quis iste molestiae nemo. Quia, veniam minus. Labore, ut doloribus'
+	));
+	$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'joro-card-text-control', array(
+		'label' => 'Card',
+		'section' => 'joro-card-callout-section',
+		'settings' => 'joro-card-text'
+	)));
+}
+
+add_action('customize_register','joro_card');
+
+function mytheme_custom_excerpt_length( $length ) {
+    return 0;
+}
+add_filter( 'excerpt_length', 'mytheme_custom_excerpt_length', 0);
